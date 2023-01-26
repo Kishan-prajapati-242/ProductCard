@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(236, 221, 200);
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    max-width: 400px;
+    border-radius: 1.5em;
+    margin: 1em 2em;
+    background-color: white;
+}
+
+.mug{
+    display: block;
+    width: 1100px;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+}
+
+.text{
+    margin: 1em 1em 1em 2em;
+    text-align: left;
+}
+
+.color_mug{
+    width: 60%;
+    margin: 0.6em 0 0.7em 0;
+}
+
+span{
+    display: inline-block;
+}
+
+.dprice{
+    padding-top: 1rem;
+    color: rgb(118, 124, 4);
+    font-size: 2rem;
+}
+
+.name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: gray;
+    letter-spacing: 0.3rem;
+}
+
+.color_mug{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: rgb(102, 80, 47);
+    font-family: "Fraunces", serif;
+}
+
+.strike{
+    margin: 0.6em;
+    text-decoration: line-through;
+}
+
+.desc{
+    width: 96%;
+    font-weight: 400;
+    font-size: large;
+}
+
+.btn {
+    display: block;
+    margin: 2em 0 0 0;
+    background-color: rgb(223, 177, 92);
+    width: 100%;
+    padding: 1em 0;
+    color: white;
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: hsl(156, 24%, 24%);
+  }
+  
+  .btn_img {
+    max-width: 5%;
+  }
+  .btn_text {
+    color: var(--white);
+  }
+
+.card{
+    max-width: 700px;
+    display: flex;
+}
